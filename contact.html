@@ -9,9 +9,9 @@
     <title>Kontakt</title>
   </head>
   <body class="bg-secondary">
-    <div class="d-flex justify-content-center">
-      <nav class="navbar navbar-expand-lg navbar-light bg-white rounded m-4 col-md-8">
-        <a class="navbar-brand" href="#">Natalia Borowiecka</a>
+    <div class="d-flex justify-content-center fixed-top">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light rounded m-4 col-md-8">
+        <a class="navbar-brand" href="./index.html">Natalia Borowiecka</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -20,30 +20,110 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
+              <a class="nav-link border-right border-left" href="./resume.html">Resume <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link border-right border-left" href="./portfolio.html">Portfolio <span
+                  class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active border-right border-left bg-light">
               <a class="nav-link" href="./contact.html"><strong>Contact</strong> <span class="sr-only">(current)</span></a>
             </li>
 
         </div>
+        <button type="button" class="btn btn-info"
+          href="https://www.google.com/url?sa=i&url=https%3A%2F%2Finterviewme.pl%2Fkreator-cv&psig=AOvVaw2UgAFznvSF9jLrt6-VO4wo&ust=1590097212239000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIii_O2zw-kCFQAAAAAdAAAAABAD"
+          download="Natalia-Borowiecka-CV">CV
+          <svg class="bi bi-download" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
+              d="M.5 8a.5.5 0 01.5.5V12a1 1 0 001 1h12a1 1 0 001-1V8.5a.5.5 0 011 0V12a2 2 0 01-2 2H2a2 2 0 01-2-2V8.5A.5.5 0 01.5 8z"
+              clip-rule="evenodd" />
+            <path fill-rule="evenodd"
+              d="M5 7.5a.5.5 0 01.707 0L8 9.793 10.293 7.5a.5.5 0 11.707.707l-2.646 2.647a.5.5 0 01-.708 0L5 8.207A.5.5 0 015 7.5z"
+              clip-rule="evenodd" />
+            <path fill-rule="evenodd" d="M8 1a.5.5 0 01.5.5v8a.5.5 0 01-1 0v-8A.5.5 0 018 1z" clip-rule="evenodd" />
+          </svg>
+        </button>
       </nav>
     </div>
-    <div class="d-flex justify-content-center">
-      <div class="card w-50 col-md-6 px-md-5 rounded m-2">
+
+    <div class="d-flex justify-content-center  mt-5 ">
+      <div class="card w-75  px-md-5 rounded m-5 ">
         <div class="card-body">
-          <h5 class="card-title">About me</h5>
-          <div class="text-secondary"> ogolnie tekst o mnieogolnie tekst o mnieogolnie tekst o mnieogolnie tekst o
-            mnieogolnie tekst o mnieogolnie tekst o mnieogolnie tekst o mnie
-            ogolnie tekst o mnieogolnie tekst o mnieogolnie tekst o mnieogolnie tekst o mnieogolnie tekst o mnie
-            ogolnie tekst o mnieogolnie tekst o mnievogolnie tekst o mnieogolnie tekst o mnieogolnie tekst o mnieogolnie
-            tekst o mnieogolnie tekst o mnie
-            ogolnie tekst o mnieogolnie tekst o mnieogolnie tekst o mnieogolnie tekst o mnieogolnie tekst o mnieogolnie
-            tekst o mnie
-            ogolnie tekst o mnieogolnie tekst o mnieogolnie tekst o mnieogolnie tekst o mnievogolnieogolnie tekst o
-            mnieogolnie tekst o mnieogolnie tekst o mnie
-            ogolnie tekst o mnieogolnie tekst o mnieogolnie tekst o mniev
+          <div class="row">
+            <div class=" col-sm-6">
+              <div class="card mb-3">
+                <div class="card-body">
+                  <form>
+                    <div class="form-group">
+                      <label for="InputName">Name</label>
+                      <input type="name" class="form-control" id="InputName">
+                    </div>
+                    <div class="form-group">
+                      <label for="InputEmail">Email</label>
+                      <input type="email" class="form-control"  id="InputEmail">
+                    </div>
+                    <div class="form-group">
+                      <label for="InputMessage">Message</label>
+                      <textarea class="form-control" id="exampleFormControlTextarea4" rows="5"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-info">Submit</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card border-light">
+                <div class="card-body">
+                  <h5 class="card-title">Contact information</h5>
+                  <div class="text-secondary">
+                    <strong>Adress:</strong>
+                      ul.Łęgowa 84, Bielsko-Biała, Poland
+                    <div></div>
+                    <strong>Phone:</strong>
+                      +48 883 667 602
+                    <div></div>
+                    <strong>Email:</strong>
+                      ntlbrwck@gmail.com
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
+          <div class="row ">
+            <div class="card col-lg-12">
+              <div class="card-body">
+                <h5 class="card-title">Contact map<mat-tab-group>
+                  <mat-tab label="TabHeader1"></mat-tab>
+                  <mat-tab label="TabTabHeader2"></mat-tab>
+                </mat-tab-group></h5>
+              <div id="map-container-google-1" class=" map-container m-3 border-light" style="height: 500px">
+                <!-- <iframe src="https://goo.gl/maps/E18TJYBuEf5F2PW39" frameborder="0"
+                  style="border:0" allowfullscreen></iframe> -->
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d164775.32460083847!2d18.897179560347475!3d49.81211573284573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47169f63dd80507b%3A0x6811f587fa4fe3a7!2sBielsko-Bia%C5%82a!5e0!3m2!1spl!2spl!4v1590011472831!5m2!1spl!2spl"
+                    width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0"></iframe>
+              </div>
+            </div>
+          </div>
+
+
+
         </div>
       </div>
     </div>
+    </div>
+    </div>
+    <div class="d-flex justify-content-center sticky-bottom mb-3">
+      <div class="card bg-light col-md-8">
+        <div class="card-body">
+          <footer class="page-footer font-small blue">
+            <div class="footer-copyright text-center py-3">© 2020 Copyright: Natalia Borowiecka</div>
+          </footer>
+        </div>
+      </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

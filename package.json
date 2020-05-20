@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/nataliaborowiecka/CV#readme",
   "dependencies": {
+    "bootstrap-icons": "^1.0.0-alpha3",
     "http-server": "^0.12.3"
   }
 }
