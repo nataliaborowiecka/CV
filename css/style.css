@@ -1,0 +1,9 @@
+.nabvbar-container {
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  bottom: 20px;
+}
+nav-item {
+  background-color: pink;
+}
