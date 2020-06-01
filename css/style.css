@@ -1,9 +1,11 @@
-.nabvbar-container {
-  display: flex;
-  justify-content: center;
-  position: sticky;
-  bottom: 20px;
+@media screen and (min-width: 401px) {
+  .details-text {
+    font-size: 2px;
+    color: chartreuse;
+  }
 }
-nav-item {
-  background-color: pink;
+@media screen and (max-width: 400px) {
+  .details-text {
+    font-size: 12px;
+  }
 }
