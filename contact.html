@@ -3,15 +3,15 @@
   <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
-
+    <link href="./css/style.css" rel="stylesheet">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kontakt</title>
   </head>
   <body class="bg-secondary">
     <div class="d-flex justify-content-center fixed-top">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light  rounded m-4 col-md-10">
-        <a class="navbar-brand" href="./index.html">Natalia Borowiecka</a>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light  rounded col-md-10 navbar-container">
+        <a class="navbar-brand buttonNavbar" href="./index.html">Natalia Borowiecka</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -68,83 +68,84 @@
             </svg>
           </button>
         </a>
+        <span class="sr-only">(current)</span></a>
       </nav>
     </div>
     <div class="row mt-5  d-flex justify-content-center">
-      <div class="card m-5 col-sm-3 h-50">
+      <div class="card col-sm-3 details-card">
         <div class="card-body">
           <h5 class="card-title">Details</h5>
           <div class="row d-flex justify-content-center">
             <img src="/files/photo.png" class="img-fluid" alt="Photo">
           </div>
           <div class="row d-flex justify-content-center mt-3">
-            <div class="col-sm-5" style="font-size: 0.9vw;">
-              <strong>NAME</strong>
+            <div class="col-sm-5">
+              <strong class="details-text">NAME</strong>
             </div>
-            <div class="col-sm-7 text-secondary" style="font-size:0.9vw">
+            <div class="col-sm-7 text-secondary details-text">
               Natalia Borowiecka
             </div>
           </div>
           <div class="row d-flex justify-content-center mt-3">
-            <div class="col-sm-5" style="font-size: 0.9vw;">
-              <strong>AGE</strong>
+            <div class="col-sm-5">
+              <strong class="details-text">AGE</strong>
             </div>
-            <div class="col-sm-7 text-secondary" style="font-size:0.9vw">
+            <div class="col-sm-7 text-secondary details-text">
               18 years old
             </div>
           </div>
           <div class="row d-flex justify-content-center mt-3">
-            <div class="col-sm-5" style="font-size: 0.9vw;">
-              <strong>LOCATION</strong>
+            <div class="col-sm-5">
+              <strong class="details-text">LOCATION</strong>
             </div>
-            <div class="col-sm-7 text-secondary" style="font-size:0.9vw">
+            <div class="col-sm-7 text-secondary details-text">
               Bielsko-Biala,
               Poland
             </div>
           </div>
           <div class="row d-flex justify-content-center mt-3">
-            <div class="col-sm-5" style="font-size: 0.9vw;">
-              <strong>EXPERIENCE</strong>
+            <div class="col-sm-5">
+              <strong class="details-text">EXPERIENCE</strong>
             </div>
-            <div class="col-sm-7 text-secondary" style="font-size:0.9vw">
+            <div class="col-sm-7 text-secondary details-text">
               ...
             </div>
           </div>
           <div class="row d-flex justify-content-center mt-3">
-            <div class="col-sm-5" style="font-size: 0.9vw;">
-              <strong>DEGREE</strong>
+            <div class="col-sm-5">
+              <strong class="details-text">DEGREE</strong>
             </div>
-            <div class="col-sm-7 text-secondary" style="font-size:0.9vw">
+            <div class="col-sm-7 text-secondary details-text">
               ...
             </div>
           </div>
           <div class="row d-flex justify-content-center mt-3">
-            <div class="col-sm-5" style="font-size: 0.9vw;">
-              <strong>PHONE</strong>
+            <div class="col-sm-5">
+              <strong class="details-text">PHONE</strong>
             </div>
-            <div class="col-sm-7 text-secondary" style="font-size:0.9vw">
+            <div class="col-sm-7 text-secondary details-text">
               +48 883 667 602
             </div>
           </div>
           <div class="row d-flex justify-content-center mt-3">
-            <div class="col-sm-5" style="font-size: 0.9vw;">
-              <strong>E-MAIL</strong>
+            <div class="col-sm-5">
+              <strong class="details-text">E-MAIL</strong>
             </div>
-            <div class="col-sm-7 text-secondary" style="font-size:0.9vw">
+            <div class="col-sm-7 text-secondary details-text">
               ntlbrwck@gmail.com
             </div>
           </div>
           <div class="row d-flex justify-content-center mt-3">
-            <div class="col-sm-5" style="font-size: 0.9vw;">
-              <strong>CAREER LEVEL</strong>
+            <div class="col-sm-5">
+              <strong class="details-text">CAREER LEVEL</strong>
             </div>
-            <div class="col-sm-7 text-secondary" style="font-size:0.9vw">
+            <div class="col-sm-7 text-secondary">
               ...
             </div>
           </div>
          </div>
       </div>
-      <div class="card w-75 col-sm-6 px-md-5 rounded m-5 ">
+      <div class="card w-75 col-sm-6 px-md-5 rounded contact-card">
         <div class="card-body">
           <div class="row">
             <div class=" col-sm-6">
@@ -227,10 +228,10 @@
                   <mat-tab label="TabHeader1"></mat-tab>
                   <mat-tab label="TabTabHeader2"></mat-tab>
                 </mat-tab-group></h5>
-              <div id="map-container-google-1" class=" m-3 border-light" style="height: 500px">
+              <div id="map-container-google-1" class=" m-3 border-light map" >
                   <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d164775.32460083847!2d18.897179560347475!3d49.81211573284573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47169f63dd80507b%3A0x6811f587fa4fe3a7!2sBielsko-Bia%C5%82a!5e0!3m2!1spl!2spl!4v1590011472831!5m2!1spl!2spl"
-                    width="600" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    width="600" height="500" frameborder="0" allowfullscreen="" aria-hidden="false"
                     tabindex="0"></iframe>
               </div>
             </div>
@@ -242,7 +243,7 @@
       </div>
     </div>
     </div>
-    <div class="d-flex justify-content-center absolute-bottom mb-3 mx-5">
+    <div class="d-flex justify-content-center absolute-bottom footer-card">
       <div class="card bg-light col-md-8">
         <div class="card-body">
           <footer class="page-footer font-small blue">
