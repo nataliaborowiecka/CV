@@ -149,7 +149,7 @@
       <div class="col-md-7">
       <div class="card  px-md-5 rounded carousel-card">
         <div class="card-body">
-          <div id="carousel1" class="carousel slide" data-ride="carousel">
+          <div id="carousel1" type="button" class="carousel slide" data-ride="carousel" data-toggle="modal" data-target="#exampleModal">
             <ol class="carousel-indicators">
               <li data-target="#carousel1" data-slide-to="0" class="active"></li>
               <li data-target="#carousel1" data-slide-to="1"></li>
@@ -186,6 +186,25 @@
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="sr-only">Next</span>
             </a>
+          </div>
+          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Details</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  ...
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
           </div>
           <div id="carousel2" class="carousel slide mt-5" data-ride="carousel">
         <ol class="carousel-indicators">

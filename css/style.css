@@ -32,8 +32,12 @@
   .footer-card {
     margin-bottom: 30px;
   }
-  .resume-card {
+  .experience-card {
     margin-top: 50px;
+    margin-right: 17px;
+  }
+  .education-card {
+    margin-top: 15px;
     margin-right: 17px;
     margin-bottom: 40px;
   }
@@ -52,6 +56,10 @@
     border: none;
     margin: 0px;
     display: flex;
+  }
+  .resume-row {
+    margin-left: 1px;
+    margin-right: 1px;
   }
 }
 @media screen and (max-width: 400px) {
@@ -81,8 +89,18 @@
     margin-top: 30px;
     margin-left: 30px;
   }
+  .experience-card {
+    margin-top: 10px;
+    margin-right: 17px;
+    margin-left: 20px;
+  }
+  .education-card {
+    margin-top: 15px;
+    margin-right: 17px;
+    margin-left: 20px;
+  }
   .navbar-container {
-    width: 90%;
+    width: 88%;
     margin: 10px;
   }
   .footer-card {
@@ -100,8 +118,14 @@
     margin-bottom: 30px;
   }
   .map {
-    height: 200px;
-    width: 200px;
+    height: 50px;
+    width: auto;
+  }
+  .map-card {
+    padding: 0px;
+    border: none;
+    margin: 0px;
+    display: flex;
   }
 }
 
