@@ -10,20 +10,21 @@
     width: auto;
   }
   .carousel-card {
-    margin-top: 48px;
+    margin-top: 50px;
     margin-bottom: 50px;
+    margin-right: 17px;
   }
   .aboutme-card {
     margin-top: 50px;
-    margin-right: 15px;
+    margin-right: 17px;
   }
   .skills-card {
-    margin-right: 15px;
+    margin-right: 17px;
   }
   .details-card {
     margin-bottom: 30px;
     margin-top: 50px;
-    margin-left: 60px;
+    margin-left: 30px;
   }
   .navbar-container {
     margin-top: 25px;
@@ -33,15 +34,13 @@
   }
   .resume-card {
     margin-top: 50px;
-    margin-right: 18px;
+    margin-right: 17px;
     margin-bottom: 40px;
-    margin-left: 15px;
   }
   .contact-card {
     margin-top: 50px;
-    margin-left: 18px;
-    margin-right: 60px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+    margin-right: 17px;
   }
   .map {
     height: 300px;
